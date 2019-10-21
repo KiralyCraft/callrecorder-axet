@@ -1,0 +1,6 @@
+id=magisk.com.github.axet.callrecorder
+name=Call Recorder
+version=v1
+versionCode=1
+author=KiralyCraft
+description=A magisk module wrapper around axet's Call Recorder
