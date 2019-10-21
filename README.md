@@ -15,7 +15,7 @@ Just like you used the normal app, but it **works as expected** now.
 Original source: https://gitlab.com/axet/android-call-recorder
 
 ## Future updates
- - Download the APK from a repo, such as F-Droid's.
+ - Download the APK from a repo, such as F-Droid's, to prevent embedding it into the module.
 ## Changelog
 #### v1.0
  - Initial release
