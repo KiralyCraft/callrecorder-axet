@@ -143,10 +143,10 @@ on_install()
 		unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
 		
 		ui_print "- Extracting APK from module zip"
-		unzip -oj "$ZIPFILE" 'common/callrecorder1.7.6.apk' -d $MODPATH >&2
+		unzip -oj "$ZIPFILE" 'common/com.github.axet.callrecorder_219.apk' -d $MODPATH >&2
 		ui_print "- Installing APK"
 		
-		pm install -g $MODPATH/callrecorder1.7.6.apk
+		pm install -g $MODPATH/com.github.axet.callrecorder_219.apk
 		
 		ui_print "- Checking installation success"
 		
@@ -171,7 +171,7 @@ on_install()
 					pm uninstall com.github.axet.callrecorder
 					ui_print "- Removing temp APK"
 					
-					rm -f "$MODPATH/callrecorder1.7.6.apk"
+					rm -f "$MODPATH/com.github.axet.callrecorder_219.apk"
 					
 					ui_print "- All done, please reboot!"
 				else
